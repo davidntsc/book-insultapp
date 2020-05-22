@@ -5,9 +5,9 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import java.util.HashMap;
-
-@Path("/insult")
 @RequestScoped
+@Path("/insult")
+
 public class InsultResource {
     @GET()
     @Produces("application/json")
